@@ -51,10 +51,10 @@ a {
 }
 
 .restaurant-images {
-  width: 380px;
-  height: auto
-  radius: 10px
-  margin: 40px auto
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin: 40px auto;
 }
 .large_icon{
   font-size: 60px;
