@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400;1,500&display=swap');
+
+
+h1 {
+  color: rgb(239, 9, 9);
+  font-size: 24px;
+  font-family: Montserrat;
+  font-weight: 600;
+}
+
+h2 {
+  color: rgb(239, 9, 9);
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+p {
+  color: rgb(40, 40, 40);
+  font-size: 14px;
+  font-family: Montserrat;
+  font-weight: 400;
+}
+
+body {
+  background-color: rgb(240, 240, 240);
+}
+body {
+  line-height: 1.8;
+}
+h1 {
+  line-height: 1.8;
+}
+h2 {
+  line-height: 1.8;
+}
+a {
+  color: rgb(20, 90, 6);
+  font-size: 20px;
+  font-family: Montserrat;
+  font-weight: 400;
+  line-height: 1.8;
+  text-decoration: none;
+}
+.container{
+  border: 1px solid rgb(239, 9, 9);
+  padding: 30px;
+  border-radius: 4px;
+  width: 400px;
+  margin: 40px auto;
+}
+
+.restaurant-images {
+  width: 380px;
+  height: auto
+  radius: 10px
+  margin: 40px auto
+}
+.large_icon{
+  font-size: 60px;
+  color: rgb(20, 90, 6);
+  margin: 24px;
+}
+.icons{
+  margin: 0 auto;
+  width: 380px;
+  text-align: center;
+}
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
